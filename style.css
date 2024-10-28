@@ -1,7 +1,8 @@
-#carousel-picture-1{
+#carousel-picture-1 {
     position: relative;
 }
-#carousel-btn-1{
+
+#carousel-btn-1 {
     position: relative;
     bottom: 350px;
     background: black;
@@ -11,3 +12,15 @@
 }
 
 /* progress bar */
+@media screen and (max-width:576px) {
+    .carouselButton{
+        display: none;
+    }
+    .carouselHeadLine {
+        font-size: 3px;
+    }
+
+    .carouselDes {
+        font-size:3px;
+    }
+}

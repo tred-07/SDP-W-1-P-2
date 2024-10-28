@@ -89,3 +89,19 @@ body{
 
 
 
+@media screen and (max-width:576px) {
+    .container1{
+        gap: 10px;
+    }
+    .container1 .progress1{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .container1 .progress1 h3{
+        font-size: .5rem;
+    }
+    .container1 .progress1 h3 span{
+        font-size: .5rem;
+    }
+
+}
