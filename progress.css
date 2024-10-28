@@ -1,0 +1,91 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}  */
+
+.container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.container1 .progress1{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: black;
+    background: #E7E7E8 linear-gradient(to right,
+    transparent 50%,var(--clr)0);
+}
+
+.container1 .progress1 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.container1 .progress1 h3 span{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.container1 .progress1 h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    /* text-transform: uppercase; */
+}
+
+.container1 .progress1::before{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.container1 .progress1::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.container1 .progress1::before{
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
+
+.container1 .progress1.less::before{
+    background: #08b8e4;
+    transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+}
+
+
+
+

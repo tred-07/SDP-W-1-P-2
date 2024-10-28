@@ -1,0 +1,13 @@
+#carousel-picture-1{
+    position: relative;
+}
+#carousel-btn-1{
+    position: relative;
+    bottom: 350px;
+    background: black;
+    width: 40%;
+    left: 50%;
+    color: aliceblue;
+}
+
+/* progress bar */
