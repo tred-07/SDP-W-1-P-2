@@ -86,12 +86,18 @@ body{
     transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
 }
 
-
+.headLineOfBar{
+    font-size: 1.5rem;
+}
+.paragraphOfBar{
+    font-size: 15px;
+}
 
 
 @media screen and (max-width:576px) {
     .container1{
         gap: 10px;
+        width: 100%;
     }
     .container1 .progress1{
         width: 2.5rem;
@@ -102,6 +108,10 @@ body{
     }
     .container1 .progress1 h3 span{
         font-size: .5rem;
+    }
+    .details{
+
+        width: 100%;
     }
 
 }
