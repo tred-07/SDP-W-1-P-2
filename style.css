@@ -11,16 +11,21 @@
     color: aliceblue;
 }
 
+.test-border {
+    border: 2px solid black
+}
+
 /* progress bar */
 @media screen and (max-width:576px) {
-    .carouselButton{
+    .carouselButton {
         display: none;
     }
+
     .carouselHeadLine {
         font-size: 3px;
     }
 
     .carouselDes {
-        font-size:3px;
+        font-size: 3px;
     }
 }
