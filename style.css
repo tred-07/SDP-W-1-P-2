@@ -28,4 +28,10 @@
     .carouselDes {
         font-size: 3px;
     }
+    .cards,.card-responsive{
+        flex-direction: column;
+    }
+    #footer-part-2{
+        flex-direction: column;
+    }
 }
