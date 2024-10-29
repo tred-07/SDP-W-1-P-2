@@ -1,54 +1,105 @@
-#carousel-picture-1 {
-    position: relative;
-}
+@media screen and (min-width:577px) {
+    #carousel-picture-1 {
+        position: relative;
+    }
 
-#carousel-btn-1 {
-    position: absolute;
-    bottom:10%;
-    background: black;
-    width: 40%;
-    left: 50%;
-    color: aliceblue;
-}
+    #carousel-btn-1 {
+        position: absolute;
+        bottom: 10%;
+        background: black;
+        width: 40%;
+        left: 50%;
+        color: aliceblue;
+    }
 
-.test-border {
-    border: 2px solid black
+    .test-border {
+        border: 2px solid black
+    }
+
 }
 
 /* progress bar */
 @media screen and (max-width:576px) {
-    .carouselButton {
-        display: none;
+    #carousel-btn-1{
+        margin-top: 25px;
+        background: #222;
+        color: aliceblue;
     }
-
     .carouselHeadLine {
-        font-size: 3px;
+        font-size: 13px;
+    }
+    .carouselDes {
+        font-size: 10px;
+    }
+    .cards,
+    .card-responsive{
+        margin: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-img,.card-des{
+        width: 100%;
+    }
+    #pages-flex {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .carouselDes {
-        font-size: 3px;
-    }
-    .cards,.card-responsive{
-        flex-direction: column;
-    }
-    #pages-flex{
-        flex-direction: column;
-        gap:20px;
-    }
-    #parentDivprofessionalProgram{
+    #parentDivprofessionalProgram {
         width: 90%;
     }
-    #professionalProgram{
+
+    #professionalProgram {
         font-size: 1rem;
     }
-    #professionalProgramDes{
+
+    #professionalProgramDes {
         font-size: 0.75rem;
     }
-    #professionalProgramDesBtn{
+
+    #professionalProgramDesBtn {
         font-size: 0.75rem;
         padding: 5px;
     }
-    #footer-part-2{
+    #client-question-img{
+        width: 100%;
+    }
+
+    #client-question-img{
+        margin: auto;
+        
+    }
+    #client-question-tyoe{
+        margin: auto;
+    }
+    .contact-logos{
+        margin: auto;
+    }
+
+    .contact-logos p{
+        color: red;
+        width: 100%;
+    }
+    .form{
         flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .nameEmail{
+        flex-direction: column;
+    }
+    #textBox{
+        width: 100%;
+    }
+    textarea{
+        margin: auto;
+        width: 100%;
+    }
+    #footer-part-1{
+        margin: auto;
+    }
+    #footer-part-2 {
+        flex-direction: column;
+        margin: auto;
     }
 }
