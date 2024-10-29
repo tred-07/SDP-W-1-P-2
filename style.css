@@ -31,6 +31,23 @@
     .cards,.card-responsive{
         flex-direction: column;
     }
+    #pages-flex{
+        flex-direction: column;
+        gap:20px;
+    }
+    #parentDivprofessionalProgram{
+        width: 90%;
+    }
+    #professionalProgram{
+        font-size: 1rem;
+    }
+    #professionalProgramDes{
+        font-size: 0.75rem;
+    }
+    #professionalProgramDesBtn{
+        font-size: 0.75rem;
+        padding: 5px;
+    }
     #footer-part-2{
         flex-direction: column;
     }
