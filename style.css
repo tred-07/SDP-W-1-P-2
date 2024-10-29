@@ -3,8 +3,8 @@
 }
 
 #carousel-btn-1 {
-    position: relative;
-    bottom: 350px;
+    position: absolute;
+    bottom:10%;
     background: black;
     width: 40%;
     left: 50%;
