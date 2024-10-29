@@ -11,7 +11,9 @@
         left: 50%;
         color: aliceblue;
     }
-
+    .card-img{
+        width: 40%;
+    }
     .test-border {
         border: 2px solid black
     }
@@ -37,7 +39,7 @@
         flex-direction: column;
         width: 100%;
     }
-    .card-img,.card-des{
+    .card-img{
         width: 100%;
     }
     #pages-flex {
