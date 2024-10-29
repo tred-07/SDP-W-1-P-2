@@ -28,7 +28,10 @@
         width: 70%;
         display: flex;
     }
-
+    #services h1{
+        color: wheat;
+        text-align: left;
+    }
     #footer-part-21 {
         display: flex;
         width: 75%;
@@ -123,10 +126,12 @@
         flex-direction: column;
     }
 
-    #textBox {
+    #textBox1 {
         width: 100%;
     }
-
+    #textBox2{
+        width: 100%;
+    }
     textarea {
         margin: auto;
         width: 100%;
@@ -165,12 +170,21 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
 
     #services {
         width: 100%;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
+
+    #services h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
     #services ul li{
         text-align: center;
     }
