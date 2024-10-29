@@ -43,6 +43,11 @@
         display: flex;
         width: 25%;
     }
+    #footerLine{
+        font-size:2rem;
+        color: aliceblue;
+        font-weight: bold;
+    }
 /* } */
 
 /* progress bar */
@@ -179,13 +184,12 @@
         display: flex;
         justify-content: center;
     }
-
-    #services h1{
+    #services ul{
         text-align: center;
-        font-size: 1.5rem;
     }
-
-    #services ul li{
-        text-align: center;
+    #footerLine{
+        font-size:1rem;
+        color: aliceblue;
+        font-weight: bold;
     }
 }
