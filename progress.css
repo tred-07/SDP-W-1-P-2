@@ -93,9 +93,7 @@ body{
     font-size: 15px;
 }
 
-.testing{
-    display: none;
-}
+
 @media screen and (max-width:576px) {
     .container1{
         gap: 10px;
