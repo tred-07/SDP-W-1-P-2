@@ -1,4 +1,4 @@
-@media screen and (min-width:577px) {
+/* @media screen and (min-width:577px) { */
     #carousel-picture-1 {
         position: relative;
     }
@@ -11,37 +11,64 @@
         left: 50%;
         color: aliceblue;
     }
-    .card-img{
+
+    .card-img {
         width: 40%;
     }
+
     .test-border {
         border: 2px solid black
     }
 
-}
+    #footer-part-1 {
+        width: 30%;
+    }
+
+    #footer-part-2 {
+        width: 70%;
+        display: flex;
+    }
+
+    #footer-part-21 {
+        display: flex;
+        width: 75%;
+        justify-content: space-evenly;
+        /* display: flex; width: 75%; justify-content: space-evenly */
+    }
+
+    #footer-part-22 {
+        display: flex;
+        width: 25%;
+    }
+/* } */
 
 /* progress bar */
 @media screen and (max-width:576px) {
-    #carousel-btn-1{
+    #carousel-btn-1 {
         margin-top: 25px;
         background: #222;
         color: aliceblue;
     }
+
     .carouselHeadLine {
         font-size: 13px;
     }
+
     .carouselDes {
         font-size: 10px;
     }
+
     .cards,
-    .card-responsive{
+    .card-responsive {
         margin: auto;
         flex-direction: column;
         width: 100%;
     }
-    .card-img{
+
+    .card-img {
         width: 100%;
     }
+
     #pages-flex {
         flex-direction: column;
         gap: 20px;
@@ -63,45 +90,88 @@
         font-size: 0.75rem;
         padding: 5px;
     }
-    #client-question-img{
+
+    #client-question-img {
         width: 100%;
     }
 
-    #client-question-img{
+    #client-question-img {
         margin: auto;
-        
+
     }
-    #client-question-tyoe{
-        margin: auto;
-    }
-    .contact-logos{
+
+    #client-question-tyoe {
         margin: auto;
     }
 
-    .contact-logos p{
+    .contact-logos {
+        margin: auto;
+    }
+
+    .contact-logos p {
         color: red;
         width: 100%;
     }
-    .form{
+
+    .form {
         flex-direction: column;
         margin: auto;
         width: 100%;
     }
-    .nameEmail{
+
+    .nameEmail {
         flex-direction: column;
     }
-    #textBox{
+
+    #textBox {
         width: 100%;
     }
-    textarea{
+
+    textarea {
         margin: auto;
         width: 100%;
     }
-    #footer-part-1{
+
+    footer {
         margin: auto;
     }
+
+    #footer-part-1 {
+        margin: auto;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
     #footer-part-2 {
+        width: 100%;
         flex-direction: column;
         margin: auto;
+        justify-content: center;
+    }
+
+    #footer-part-21 {
+        /* display: flex; */
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    #company h1,#support h1{
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #footer-part-22 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #services {
+        width: 100%;
+        margin: auto;
+    }
+    #services ul li{
+        text-align: center;
     }
 }
