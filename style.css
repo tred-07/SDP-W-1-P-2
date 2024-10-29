@@ -1,4 +1,4 @@
-/* @media screen and (min-width:577px) { */
+@media screen and (min-width:577px) {
     #carousel-picture-1 {
         position: relative;
     }
@@ -48,7 +48,7 @@
         color: aliceblue;
         font-weight: bold;
     }
-/* } */
+}
 
 /* progress bar */
 @media screen and (max-width:576px) {
