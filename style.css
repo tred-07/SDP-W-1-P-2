@@ -28,10 +28,12 @@
         width: 70%;
         display: flex;
     }
-    #services h1{
+
+    #services h1 {
         color: wheat;
         text-align: left;
     }
+
     #footer-part-21 {
         display: flex;
         width: 75%;
@@ -43,10 +45,19 @@
         display: flex;
         width: 25%;
     }
-    #footerLine{
-        font-size:2rem;
+
+    #footerLine {
+        font-size: 2rem;
         color: aliceblue;
         font-weight: bold;
+    }
+
+    .contact-logos {
+        width: 40%;
+        padding-left: 10%;
+        padding-top: 10%;
+        border: 1px solid rgba(19, 19, 24, 0.1);
+        border-radius: 20px;
     }
 }
 
@@ -114,11 +125,16 @@
 
     .contact-logos {
         margin: auto;
+        width: 100%;
     }
-
+    .contact-logos-img{
+        display: flex;
+        justify-content: center;
+    }
     .contact-logos p {
         color: red;
         width: 100%;
+        text-align: center;
     }
 
     .form {
@@ -134,9 +150,11 @@
     #textBox1 {
         width: 100%;
     }
-    #textBox2{
+
+    #textBox2 {
         width: 100%;
     }
+
     textarea {
         margin: auto;
         width: 100%;
@@ -165,12 +183,15 @@
         width: 100%;
         gap: 20px;
     }
-    #company h1,#support h1{
+
+    #company h1,
+    #support h1 {
         text-align: center;
         font-size: 1.5rem;
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    
     #footer-part-22 {
         width: 100%;
         display: flex;
@@ -184,12 +205,18 @@
         display: flex;
         justify-content: center;
     }
-    #services ul{
+
+    #services ul {
         text-align: center;
     }
-    #footerLine{
-        font-size:1rem;
+
+    #footerLine {
+        font-size: 1rem;
         color: aliceblue;
         font-weight: bold;
+    }
+
+    #parentContactLogos {
+        width: 100%;
     }
 }
