@@ -178,7 +178,7 @@
     }
 
     #footer-part-21 {
-        /* display: flex; */
+        display: flex;
         justify-content: center;
         width: 100%;
         gap: 20px;
