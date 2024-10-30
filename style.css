@@ -59,6 +59,24 @@
         border: 1px solid rgba(19, 19, 24, 0.1);
         border-radius: 20px;
     }
+
+    .section-4 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cards {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        border: 1px solid rgba(19, 19, 24, 0.1);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    #client-question-img {
+        width: 50%
+    }
 }
 
 /* progress bar */
@@ -127,10 +145,12 @@
         margin: auto;
         width: 100%;
     }
-    .contact-logos-img{
+
+    .contact-logos-img {
         display: flex;
         justify-content: center;
     }
+
     .contact-logos p {
         color: red;
         width: 100%;
@@ -191,7 +211,7 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    
+
     #footer-part-22 {
         width: 100%;
         display: flex;
