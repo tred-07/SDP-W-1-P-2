@@ -77,6 +77,11 @@
     #client-question-img {
         width: 50%
     }
+
+    #client-question-tyoe {
+        width: 50%;
+        padding: 20px;
+    }
 }
 
 /* progress bar */
@@ -134,11 +139,12 @@
 
     #client-question-img {
         margin: auto;
-
+        width: 90%;
     }
 
     #client-question-tyoe {
         margin: auto;
+        width: 90%;
     }
 
     .contact-logos {
